@@ -5,11 +5,12 @@ import csv
 import re
 
 #ask user for input
-#HOST = input("Enter the IP Address of Router:")
-#username = input("Enter your username:")
+HOST = input("Enter the IP Address of Router:")
+username = input("Enter your username:")
 
-HOST = '192.168.194.134'
-username = 'namal'
+# Use these variables and comment the above corresponding variables if you don't want to to be ask for input.
+#HOST = 'Device-IP'
+#username = 'Device-Password'
 
 #store users input in the password variable
 #password = getpass.getpass()
